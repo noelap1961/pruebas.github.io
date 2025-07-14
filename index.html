@@ -2,11 +2,28 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>3M - Servicio Flestes Uruguay</title>
+<title>3M - Servicio Fletes Uruguay</title>
 <meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="index.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
+<script>
+function submitevakua()
+{
+   var regexp;
+   var TextArea1 = document.getElementById('TextArea1');
+   if (!(TextArea1.disabled || TextArea1.style.display === 'none' || TextArea1.style.visibility === 'hidden'))
+   {
+      if (TextArea1.value == "")
+      {
+         alert("Por favor, teclee su nombre ó alias");
+         TextArea1.focus();
+         return false;
+      }
+   }
+   return true;
+}
+</script>
 </head>
 <body>
 <div id="wb_LayoutGrid1">
@@ -20,28 +37,98 @@
 <li></li>
 <li></li>
 </ul>
-<div id="wb_Image1" style="display:block;width:100%;height:auto;z-index:2;">
+<div id="wb_Image1" style="display:block;width:100%;height:auto;z-index:20;">
 <img src="images/banner-servicio-de-fletes.jpg" id="Image1" alt="" width="994" height="112">
 </div>
-<hr id="HorizontalLine2" style="display:inline-block;width:994px;z-index:3;">
-<div id="wb_Image2" style="display:block;width:100%;height:auto;z-index:4;">
+<hr id="HorizontalLine1" style="display:inline-block;width:994px;z-index:21;">
+<div id="wb_Image2" style="display:block;width:100%;height:auto;z-index:22;">
 <img src="images/variante-2.jpg" id="Image2" alt="" width="994" height="663">
 </div>
-<hr id="HorizontalLine1" style="display:inline-block;width:994px;z-index:5;">
-<div id="wb_Image3" style="display:block;width:100%;height:auto;z-index:6;">
+<hr id="HorizontalLine2" style="display:inline-block;width:994px;z-index:23;">
+<div id="wb_Image3" style="display:block;width:100%;height:auto;z-index:24;">
 <img src="images/banner-servicio-de-fletes-footer.jpg" id="Image3" alt="" width="994" height="112">
 </div>
-<div id="wb_FlexContainer1">
-<div id="FlexContainer1">
-<div id="wb_Text2">
-<span style="background-color:#FFFFFF;color:#FFFF00;font-family:Impact;font-size:21px;"><a href="https://whatsapp.com/channel/0029Vb6Ee5S17EmxBC2Lcx1n" title="Síguenos en nuestro Canal de WhatsApp">Síguenos en nuestro Canal de WhatsApp</a></span>
+<hr id="HorizontalLine3" style="display:inline-block;width:994px;z-index:25;">
+<div id="wb_Card1" style="display:flex;width:100%;z-index:26;" class="card">
+<div id="Card1-card-body">
+<div id="Card1-card-item0" class="wb-theme-header"><a href="https://whatsapp.com/channel/0029Vb6Ee5S17EmxBC2Lcx1n">Síguenos en nuestro Canal de WhatsApp</a></div>
+<hr id="Card1-card-item1">
+</div>
+</div>
+<hr id="HorizontalLine4" style="display:inline-block;width:994px;z-index:27;">
+<div id="wb_LayoutGrid2">
+<form name="evakua" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="LayoutGrid2" onsubmit="return submitevakua()">
+<div class="col-1">
+</div>
+<div class="col-2">
+</div>
+<div class="col-3">
+<div id="wb_Text1">
+<span style="background-color:#81F9A0;color:#000000;font-family:Impact;font-size:17px;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Evalue nuestro </span><span style="background-color:#81F9A0;color:#0000FF;font-family:Impact;font-size:17px;">Servicio</span><span style="background-color:#81F9A0;color:#DC143C;font-family:Impact;font-size:17px;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span>
+</div>
+<hr id="HorizontalLine5" style="display:inline-block;width:301px;z-index:13;">
+<textarea name="TextArea1" id="TextArea1" style="display:block;width: 100%;;height:26px;z-index:14;" rows="1" cols="27" spellcheck="false" placeholder="Nombre"></textarea>
+<hr id="HorizontalLine6" style="display:inline-block;width:301px;z-index:15;">
+<table style="display:table;width:100%;height:136px;z-index:16;" id="Table1">
+<tr>
+<td class="cell0"><label for="RadioButton1" id="Label1" style="display:block;width:100%;line-height:18px;z-index:0;">Malo</label>
+</td>
+<td class="cell1"><div id="wb_RadioButton1" style="display:inline-block;width:18px;height:20px;z-index:1;">
+<input type="radio" id="RadioButton1" name="Name" value="on" checked style="display:inline-block;"><label for="RadioButton1"></label>
+</div>
+</td>
+</tr>
+<tr>
+<td class="cell0"><label for="RadioButton2" id="Label2" style="display:block;width:100%;line-height:18px;z-index:2;">Regular</label>
+</td>
+<td class="cell1"><div id="wb_RadioButton2" style="display:inline-block;width:18px;height:20px;z-index:3;">
+<input type="radio" id="RadioButton2" name="Name" value="on" style="display:inline-block;"><label for="RadioButton2"></label>
+</div>
+</td>
+</tr>
+<tr>
+<td class="cell0"><label for="RadioButton3" id="Label3" style="display:block;width:100%;line-height:18px;z-index:4;">Bueno</label>
+</td>
+<td class="cell1"><div id="wb_RadioButton3" style="display:inline-block;width:18px;height:20px;z-index:5;">
+<input type="radio" id="RadioButton3" name="Name" value="on" style="display:inline-block;"><label for="RadioButton3"></label>
+</div>
+</td>
+</tr>
+<tr>
+<td class="cell0"><label for="RadioButton4" id="Label4" style="display:block;width:100%;line-height:18px;z-index:6;">Nuy Bueno</label>
+</td>
+<td class="cell1"><div id="wb_RadioButton4" style="display:inline-block;width:18px;height:20px;z-index:7;">
+<input type="radio" id="RadioButton4" name="Name" value="on" style="display:inline-block;"><label for="RadioButton4"></label>
+</div>
+</td>
+</tr>
+<tr>
+<td class="cell0"><label for="RadioButton5" id="Label5" style="display:block;width:100%;line-height:18px;z-index:8;">Excelente</label>
+</td>
+<td class="cell1"><div id="wb_RadioButton5" style="display:inline-block;width:18px;height:20px;z-index:9;">
+<input type="radio" id="RadioButton5" name="Name" value="on" style="display:inline-block;"><label for="RadioButton5"></label>
+</div>
+</td>
+</tr>
+</table>
+<hr id="HorizontalLine7" style="display:inline-block;width:301px;z-index:17;">
+<table style="display:table;width:100%;height:26px;z-index:18;" id="Table2">
+<tr>
+<td class="cell0"><input type="submit" id="Button1" name="" value="Enviar" style="display:inline-block;width:96px;height:24px;z-index:10;">
+</td>
+<td class="cell0"><input type="reset" id="Button2" name="" value="Reset" style="display:inline-block;width:96px;height:24px;z-index:11;">
+</td>
+</tr>
+</table>
+</div>
+<div class="col-4">
+</div>
+<div class="col-5">
+</div>
+</form>
 </div>
 </div>
 </div>
 </div>
-</div>
-</div>
-<div id="wb_Text1" style="position:absolute;left:0px;top:2465px;width:994px;height:22px;text-align:center;z-index:10;">
-<span style="background-color:#FFFFFF;color:#FFFFFF;font-family:Verdana;font-size:19px;">Síguenos en nuestro Canal de WhatsApp</span></div>
 </body>
 </html>
