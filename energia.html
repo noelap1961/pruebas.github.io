@@ -1,0 +1,520 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Útiles de Energía</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/elmol.css" rel="stylesheet">
+<link href="css/energia.css" rel="stylesheet">
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/wb.parallax.min.js"></script>
+<script src="js/wb.conveyerbelt.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/wwb20.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_LayoutGrid1').parallax();
+   $("#SlideShow2").conveyerbelt({speed:1, direction: 'left', spacing: 5});
+   function onScrollcontacto_Bookmark1()
+   {
+      var $obj = $("#wb_contacto_Bookmark1");
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         ShowObjectWithEffect('wb_Text5', 1, 'fade', 1);
+      }
+      else
+      if ($obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+      }
+   }
+   if (!$('#wb_contacto_Bookmark1').inViewPort(true))
+   {
+      $('#wb_contacto_Bookmark1').addClass("in-viewport");
+   }
+   onScrollcontacto_Bookmark1();
+   $(window).scroll(function(event)
+   {
+      onScrollcontacto_Bookmark1();
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1-overlay"></div>
+<div id="LayoutGrid1">
+<div class="col-1">
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="col-1">
+<div id="wb_ResponsiveMenu1">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menu<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li role="menuitem"><a href="./index.html" class="nav-link"><i class="fa fa-home"></i><br>Inicio</a></li>
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-0" class="toggle"><i class="fa fa-television"></i>Equipos<span class="arrow-down"></span></label>
+<a href="javascript:void(0)" class="nav-link"><i class="fa fa-television"></i><br>Equipos<span class="arrow-down"></span></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-0">
+<ul role="menu">
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-1" class="toggle">Útiles&nbsp;de&nbsp;energía<span class="arrow-down"></span></label>
+<a href="./energia.html#genBookmark2" title="Generadores, convertidores, cargadores, baterias..." class="active">Útiles&nbsp;de&nbsp;energía<span class="arrow-left"></span></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-1">
+<ul role="menu">
+<li role="menuitem"><a href="./energia.html#LayoutGrid5" class="active">Generadores</a></li>
+<li role="menuitem"><a href="#LayoutGrid8" class="nav-link">Convertidores</a></li>
+<li role="menuitem"><a href="#LayoutGrid9" class="nav-link">Baterías</a></li>
+<li role="menuitem"><a href="./energia.html#cablesBookmark5" class="active">Cables</a></li>
+<li role="menuitem"><a href="#LayoutGrid11" class="nav-link">Calentadores</a></li>
+<li role="menuitem"><a href="#LayoutGrid12" class="nav-link">Cargadores</a></li>
+<li role="menuitem"><a href="#LayoutGrid13" title="Lámparas recargables, Transfer, turbinas" class="nav-link">Otros</a></li>
+</ul>
+</li>
+<li role="menuitem"><a href="" title="Ollas Reina, Arroceras, ollas de presión,  calderos...." class="nav-link">Útiles&nbsp;de&nbsp;cocina&nbsp;pequeños</a></li>
+<li role="menuitem"><a href="" title="Fogón de gas, neveras, refrigeradores..." class="nav-link">Útiles&nbsp;de&nbsp;cocina&nbsp;grandes</a></li>
+<li role="menuitem"><a href="" title="Neveras, refrigeradores, máquinas para refrigeradores" class="nav-link">Útiles&nbsp;de&nbsp;Refrigeración</a></li>
+<li role="menuitem"><a href="" title="SPLITs, ventiladores, ventiladores recargablas..." class="nav-link">Ventilación</a></li>
+<li role="menuitem"><a href="" title="TVs, bases y cajitas decodificadoras" class="nav-link">TVs&nbsp;y&nbsp;Utensilios</a></li>
+</ul>
+</li>
+<li role="menuitem"><a href="#contacto_Bookmark1" title="Como contactarnos..." class="nav-link"><i class="fa fa-user"></i><br>Contactos</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="col-1">
+<div id="wb_Image1">
+<img src="images/banner.gif" id="Image1" alt="" width="1140" height="334">
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="col-1">
+<ul id="SlideShow2">
+<li><img class="image" width="250" height="250" src="images/cald1.jpg" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cald2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cald3.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/arroc1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/ollap1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/ollap2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/ollap3.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/ollap4.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/reina1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/reina2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cocinaind1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cocinaind2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cocinaind3.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/fogas1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/fogas2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/fogas3.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/fogas4.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/foginf1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/freidora1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/frit1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/frit2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/frit3.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/frit4.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/sartenelect1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/lic1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/lic2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/licuamano1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cafet1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cafet2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cafet3.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cafet4.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cafet5.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cafet6.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cald1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cald2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/cald3.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/jcuch1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/jcuch2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/jgoplatos1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/jgotazas1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/jgovajillas1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/jgovajillas2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/hornomicro1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/fogas5.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/refrig1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/refrig2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/refrig3.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/refrig4.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/nev1.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/nev2.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/nev3.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/nev4.jpg" style="display:none;" alt="" title=""></li>
+<li><img class="image" width="250" height="250" src="images/maqref1.jpg" style="display:none;" alt="" title=""></li>
+</ul>
+</div>
+</div>
+</div>
+<hr id="HorizontalLine2">
+<div id="wb_Text1">
+<span style="color:#000000;font-family:Impact;font-size:35px;">Equipos</span><span style="color:#0072C1;font-family:Impact;font-size:35px;"> </span><span style="color:#0074C3;font-family:Impact;font-size:35px;">más vendidos</span>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="col-1">
+<div id="wb_Text2">
+<span style="color:#0074C3;font-family:Impact;font-size:29px;">Ollas Reinas</span>
+</div>
+<div id="wb_Image2">
+<img src="images/reina1.jpg" id="Image2" alt="" width="354" height="354">
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text3">
+<span style="color:#0074C3;font-family:Impact;font-size:29px;">Ollas Arroceras</span>
+</div>
+<div id="wb_Image3">
+<img src="images/arroc1.jpg" id="Image3" alt="" width="354" height="354">
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Text4">
+<span style="color:#0074C3;font-family:Impact;font-size:29px;">Ollas de Presión </span>
+</div>
+<div id="wb_Image4">
+<img src="images/ollap2.jpg" id="Image4" alt="" width="354" height="354">
+</div>
+</div>
+</div>
+</div>
+<hr id="HorizontalLine1">
+<div id="wb_Text11">
+<span style="color:#0074C3;font-family:Impact;font-size:35px;">Generadores</span>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="col-1">
+<div id="wb_Text12">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 800.00</span>
+</div>
+<div id="wb_Image5">
+<a href="./formulario.php?equipo=Generador de energía Delta 2 de 1800W con pico de 2700W. Marca EcoFlow.&precio=800.00"><img src="images/generador1.jpg" id="Image5" alt="" width="256" height="256"></a>
+</div>
+<div id="wb_Text15">
+<span style="color:#000000;font-family:Verdana;font-size:16px;"><a href="./formulario.php?equipo=Generador de energía Delta 2 de 1800W con pico de 2700W. Marca EcoFlow.&precio=800.00">Generador de energía Delta 2 de 1800W con pico de 2700W. Marca EcoFlow.</a></span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text13">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 1400.00</span>
+</div>
+<div id="wb_Image6">
+<a href="./formulario.php?equipo=Generador de energía Delta 2 de 2400W con pico de 3600W y 2048W/h. Marca EcoFlow&precio=1400.00"><img src="images/generador2.jpg" id="Image6" alt="" width="256" height="256"></a>
+</div>
+<div id="wb_Text16">
+<span style="color:#000000;font-family:Verdana;font-size:16px;"><a href="./formulario.php?equipo=Generador de energía Delta 2 de 2400W con pico de 3600W y 2048W/h. Marca EcoFlow&precio=1400.00">Generador de energía Delta 2 de 2400W con pico de 3600W y 2048W/h. Marca EcoFlow</a>.</span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Text14">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 2400.00</span>
+</div>
+<div id="wb_Image7">
+<a href="./formulario.php?equipo=Generador de energía Delta Pro de 3600W con pico de 7200W y 3600W/h. Marca EcoFlow&precio=2400.00"><img src="images/generador3.jpg" id="Image7" alt="" width="256" height="256"></a>
+</div>
+<div id="wb_Text17">
+<span style="color:#000000;font-family:Verdana;font-size:16px;"><a href="./formulario.php?equipo=Generador de energía Delta Pro de 3600W con pico de 7200W y 3600W/h. Marca EcoFlow&precio=2400.00">Generador de energía Delta Pro de 3600W con pico de 7200W y 3600W/h. Marca EcoFlow</a>.</span>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_Text18">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 700.00</span>
+</div>
+<div id="wb_Image8">
+<a href="./formulario.php?equipo=Planta eléctrica, tecnología Inverter. Pico 2300W. Potencia 1800W-110V...Marca Pulsar&precio=700.00"><img src="images/plantaelect1.jpg" id="Image8" alt="" width="256" height="256"></a>
+</div>
+<div id="wb_Text19">
+<span style="color:#000000;font-family:Verdana;font-size:16px;"><a href="./formulario.php?equipo=Planta eléctrica, tecnología Inverter. Pico 2300W. Potencia 1800W-110V...Marca Pulsar&precio=700.00">Planta eléctrica, tecnología Inverter. Pico 2300W. Potencia 1800W-110V...Marca Pulsar</a></span>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Text20">
+<span style="color:#0074C3;font-family:Impact;font-size:35px;">Convertidores</span>
+</div>
+<div id="wb_LayoutGrid8">
+<div id="LayoutGrid8">
+<div class="col-1">
+<div id="wb_Text21">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 800.00</span>
+</div>
+<div id="wb_Image9">
+<a href="./formulario.php?equipo=Covertidor y bateria 72v, 35A con su cargador&precio=800"><img src="images/convbat1.jpg" id="Image9" alt="" width="354" height="354"></a>
+</div>
+<div id="wb_Text23">
+<span style="color:#000000;font-family:Verdana;font-size:16px;"><a href="./formulario.php?equipo=Covertidor y bateria 72v, 35A con su cargador&precio=800">Covertidor y bateria 72v, 35A con su cargador</a>.</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text24">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 160.00</span>
+</div>
+<div id="wb_Image10">
+<a href="./formulario.php?equipo=Convertidor 3000W 72A. Marca Unizuki&precio=160"><img src="images/convert1.jpg" id="Image10" alt="" width="354" height="354"></a>
+</div>
+<div id="wb_Text25">
+<span style="color:#000000;font-family:Verdana;font-size:16px;"><a href="./formulario.php?equipo=Convertidor 3000W 72A. Marca Unizuki&precio=160">Convertidor 3000W 72A. Marca Unizuki</a>.</span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Text22">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 160.00</span>
+</div>
+<div id="wb_Image11">
+<a href="./formulario.php?equipo=Convertidor 3000W 12v&precio=160"><img src="images/convert2.jpg" id="Image11" alt="" width="354" height="354"></a>
+</div>
+<div id="wb_Text26">
+<span style="color:#000000;font-family:Verdana;font-size:16px;"><a href="./formulario.php?equipo=Convertidor 3000W 12v&precio=160">Convertidor 3000W 12v</a></span>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Text29">
+<span style="color:#0074C3;font-family:Impact;font-size:35px;">Baterias</span>
+</div>
+<div id="wb_LayoutGrid9">
+<div id="LayoutGrid9">
+<div class="col-1">
+<div id="wb_Text30">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 330.00</span>
+</div>
+<div id="wb_Image13">
+<a href="./formulario.php?equipo=Batería LifeP04 100A 12v&precio=330"><img src="images/bateria1.jpg" id="Image13" alt="" width="549" height="549"></a>
+</div>
+<div id="wb_Text32">
+<span style="color:#000000;font-family:Verdana;font-size:16px;"><a href="./formulario.php?equipo=Batería LifeP04 100A 12v&precio=330">Batería LifeP04 100A 12v</a>.</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text33">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 650.00</span>
+</div>
+<div id="wb_Image14">
+<a href="./formulario.php?equipo=Batería de Litio 72v, 35A&precio=650"><img src="images/batlit1.jpg" id="Image14" alt="" width="549" height="549"></a>
+</div>
+<div id="wb_Text34">
+<span style="color:#000000;font-family:Verdana;font-size:16px;"><a href="./formulario.php?equipo=Batería de Litio 72v, 35A&precio=650">Batería de Litio 72v, 35A</a>.</span>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Text38">
+<span style="color:#0074C3;font-family:Impact;font-size:35px;">Cables</span>
+</div>
+<div id="wb_LayoutGrid10">
+<div id="LayoutGrid10">
+<div class="col-1">
+<div id="wb_Text39">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 100.00</span>
+</div>
+<div id="wb_Image17">
+<a href="./formulario.php?equipo=Cable solar 50m, 6mm&precio=100"><img src="images/cablesolar1.jpg" id="Image17" alt="" width="549" height="549"></a>
+</div>
+<div id="wb_Text41">
+<span style="color:#000000;font-family:Verdana;font-size:16px;"><a href="./formulario.php?equipo=Cable solar 50m, 6mm&precio=100">Cable solar 50m, 6mm</a>.</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text42">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 50.00</span>
+</div>
+<div id="wb_Image18">
+<a href="./formulario.php?equipo=Manguera eléctrica 100m&precio=50"><img src="images/mangelect1.jpg" id="Image18" alt="" width="549" height="549"></a>
+</div>
+<div id="wb_Text43">
+<span style="color:#000000;font-family:Verdana;font-size:16px;"><a href="./formulario.php?equipo=Manguera eléctrica 100m&precio=50">Manguera eléctrica 100m</a>.</span>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Text47">
+<span style="color:#0074C3;font-family:Impact;font-size:35px;">Calentadores</span>
+</div>
+<div id="wb_LayoutGrid11">
+<div id="LayoutGrid11">
+<div class="col-1">
+<div id="wb_Text48">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 200.00</span>
+</div>
+<div id="wb_Image21">
+<img src="images/calentador1.jpg" id="Image21" alt="" width="256" height="256">
+</div>
+<div id="wb_Text50">
+<span style="color:#000000;font-family:Verdana;font-size:16px;">Calentador de agua central, 30Lts.</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text51">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 220.00</span>
+</div>
+<div id="wb_Image22">
+<img src="images/calentador1.jpg" id="Image22" alt="" width="256" height="256">
+</div>
+<div id="wb_Text52">
+<span style="color:#000000;font-family:Verdana;font-size:16px;">Calentador de agua central, 50Lts.</span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Text49">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 250.00</span>
+</div>
+<div id="wb_Image23">
+<img src="images/calentador1.jpg" id="Image23" alt="" width="256" height="256">
+</div>
+<div id="wb_Text53">
+<span style="color:#000000;font-family:Verdana;font-size:16px;">Calentador de agua central, 80Lts.</span>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_Text54">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 270.00</span>
+</div>
+<div id="wb_Image24">
+<img src="images/calentador1.jpg" id="Image24" alt="" width="256" height="256">
+</div>
+<div id="wb_Text55">
+<span style="color:#000000;font-family:Verdana;font-size:16px;">Calentador de agua central, 100Lts.</span>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Text56">
+<span style="color:#0074C3;font-family:Impact;font-size:35px;">Cargadores</span>
+</div>
+<div id="wb_LayoutGrid12">
+<div id="LayoutGrid12">
+<div class="col-1">
+<div id="wb_Text57">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 120.00</span>
+</div>
+<div id="wb_Image25">
+<img src="images/controlcarg1.jpg" id="Image25" alt="" width="549" height="549">
+</div>
+<div id="wb_Text59">
+<span style="color:#000000;font-family:Verdana;font-size:16px;">Controlador de carga solar 48v-60-72v.</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text60">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 50.00</span>
+</div>
+<div id="wb_Image26">
+<img src="images/cargbat1.jpg" id="Image26" alt="" width="549" height="549">
+</div>
+<div id="wb_Text62">
+<span style="color:#000000;font-family:Verdana;font-size:16px;">Cargador de bateria de carro.</span>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Text65">
+<span style="color:#0074C3;font-family:Impact;font-size:35px;">Equipos Varios</span>
+</div>
+<div id="wb_LayoutGrid13">
+<div id="LayoutGrid13">
+<div class="col-1">
+<div id="wb_Text66">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 30.00</span>
+</div>
+<div id="wb_Image29">
+<img src="images/lamprec1.jpg" id="Image29" alt="" width="256" height="256">
+</div>
+<div id="wb_Text68">
+<span style="color:#000000;font-family:Verdana;font-size:16px;">Lámpara recargable con panel solar.</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text69">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 70.00</span>
+</div>
+<div id="wb_Image30">
+<img src="images/transfer1.jpg" id="Image30" alt="" width="256" height="256">
+</div>
+<div id="wb_Text71">
+<span style="color:#000000;font-family:Verdana;font-size:16px;">Transfer automático 63A 110v.</span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Text67">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 40.00</span>
+</div>
+<div id="wb_Image31">
+<img src="images/turb1.jpg" id="Image31" alt="" width="256" height="256">
+</div>
+<div id="wb_Text72">
+<span style="color:#000000;font-family:Verdana;font-size:16px;">Turbina 1/2HP Hmax: 36m. Marca: MasterSonic</span>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_Text70">
+<span style="color:#000000;font-family:Impact;font-size:24px;">$ 50.00</span>
+</div>
+<div id="wb_Image32">
+<img src="images/turb2.jpg" id="Image32" alt="" width="256" height="256">
+</div>
+<div id="wb_Text73">
+<span style="color:#000000;font-family:Verdana;font-size:16px;">Turbina 1HP Hmax: 45m. Marca: MasterSonic</span>
+</div>
+</div>
+</div>
+</div>
+<hr id="HorizontalLine3">
+<div id="wb_Text5">
+<span style="color:#000000;font-family:Impact;font-size:35px;">Contactos</span>
+</div>
+<div id="wb_contacto_Bookmark1">
+<div id="contacto_Bookmark1"></div>
+
+</div>
+<div id="wb_LayoutGrid7">
+<div id="LayoutGrid7">
+<div class="col-1">
+<div id="wb_Icon1">
+<div id="Icon1"><i class="fa fa-map-marker"></i></div>
+</div>
+<div id="wb_Text6">
+<span style="color:#000000;font-family:Verdana;font-size:27px;"><strong>Dirección</strong></span>
+</div>
+<div id="wb_Text7">
+<span style="color:#000000;font-family:Verdana;font-size:21px;">Calle 33 # 5615, e/ 54 y 56. Cienfuegos, Cuba</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Icon2">
+<div id="Icon2"><i class="fa fa-whatsapp"></i></div>
+</div>
+<div id="wb_Text8">
+<span style="color:#000000;font-family:Verdana;font-size:27px;"><strong>Teléfonos</strong></span>
+</div>
+<div id="wb_Text10">
+<span style="color:#000000;font-family:Verdana;font-size:21px;">+53-53166421<br>+53-55193327</span>
+</div>
+<div id="wb_Text9">
+<span style="color:#000000;font-family:Verdana;font-size:21px;"><strong>Horario</strong>:<br><strong>Lunes a Viernes:</strong> 8:00am - 4:00pm<br><strong>Sábados:</strong>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 8:00am - 1:00pm</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="upStickyLayer">
+<div id="wb_upIcon">
+<a href="#LayoutGrid6"><div id="upIcon"><i class="fa fa-arrow-up"></i></div></a></div>
+</div>
+</body>
+</html>

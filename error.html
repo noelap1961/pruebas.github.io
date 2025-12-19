@@ -1,0 +1,115 @@
+<?php 
+    $urlParseada = parse_url(url: $_SERVER['REQUEST_URI']);
+    $resultado = $urlParseada["query"];
+?>
+<?php echo $_GET['equipo']; ?>
+<?php echo $_GET['precio']; ?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 20 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/elmol.css" rel="stylesheet">
+<link href="css/error.css" rel="stylesheet">
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/wb.parallax.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_LayoutGrid1').parallax();
+});
+</script>
+</head>
+<body>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1-overlay"></div>
+<div id="LayoutGrid1">
+<div class="col-1">
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="col-1">
+<div id="wb_ResponsiveMenu1" style="display:block;width:100%;z-index:0;">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menu<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li role="menuitem"><a href="./index.html" class="nav-link"><i class="fa fa-home"></i><br>Inicio</a></li>
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-0" class="toggle"><i class="fa fa-television"></i>Equipos<span class="arrow-down"></span></label>
+<a href="./energia.html#batBookmark2" class="nav-link"><i class="fa fa-television"></i><br>Equipos<span class="arrow-down"></span></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-0">
+<ul role="menu">
+<li role="menuitem"><a href="./energia.html#genBookmark2" title="Generadores, convertidores, cargadores, baterias..." class="nav-link">Útiles&nbsp;de&nbsp;energía</a></li>
+<li role="menuitem"><a href="" title="Ollas Reina, Arroceras, ollas de presión,  calderos...." class="nav-link">Útiles&nbsp;de&nbsp;cocina&nbsp;pequeños</a></li>
+<li role="menuitem"><a href="" title="Fogón de gas, neveras, refrigeradores..." class="nav-link">Útiles&nbsp;de&nbsp;cocina&nbsp;grandes</a></li>
+<li role="menuitem"><a href="" title="Neveras, refrigeradores, máquinas para refrigeradores" class="nav-link">Útiles&nbsp;de&nbsp;Refrigeración</a></li>
+<li role="menuitem"><a href="" title="SPLITs, ventiladores, ventiladores recargablas..." class="nav-link">Ventilación</a></li>
+<li role="menuitem"><a href="" title="TVs, bases y cajitas decodificadoras" class="nav-link">TVs&nbsp;y&nbsp;Utensilios</a></li>
+</ul>
+</li>
+<li role="menuitem"><a href="#contacto_Bookmark1" title="Como contactarnos..." class="nav-link"><i class="fa fa-user"></i><br>Contactos</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="col-1">
+<div id="wb_Icon3" style="display:inline-block;width:100px;height:86px;text-align:center;z-index:1;">
+<div id="Icon3"><i class="fa fa-window-close"></i></div>
+</div>
+<div id="wb_Text2">
+<span style="color:#000000;font-family:Impact;font-size:29px;"> </span><span style="color:#0074C3;font-family:Impact;font-size:29px;">Ha ocurrido un</span><span style="color:#000000;font-family:Impact;font-size:29px;"> ERROR </span>
+</div>
+</div>
+</div>
+</div>
+<hr id="HorizontalLine1" style="display:inline-block;width:250px;z-index:13;">
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="col-1">
+<div id="wb_Text3">
+<span style="color:#000000;font-family:Impact;font-size:24px;">Su encargo </span><span style="color:#0074C3;font-family:Impact;font-size:24px;">no ha podido ser enviado. Contacte con nosotros lo antes posible</span><span style="color:#000000;font-family:Verdana;font-size:29px;"><strong><br></strong></span>
+</div>
+</div>
+</div>
+</div>
+<hr id="HorizontalLine2" style="display:inline-block;width:250px;z-index:15;">
+<div id="wb_LayoutGrid7">
+<div id="LayoutGrid7">
+<div class="col-1">
+<div id="wb_Icon1" style="display:inline-block;width:63px;height:55px;text-align:center;z-index:4;">
+<div id="Icon1"><i class="fa fa-map-marker"></i></div>
+</div>
+<div id="wb_Text6">
+<span style="color:#000000;font-family:Verdana;font-size:27px;"><strong>Dirección</strong></span>
+</div>
+<div id="wb_Text7">
+<span style="color:#000000;font-family:Verdana;font-size:21px;">Calle 33 # 5615, e/ 54 y 56. Cienfuegos, Cuba</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Icon2" style="display:inline-block;width:63px;height:55px;text-align:center;z-index:7;">
+<div id="Icon2"><i class="fa fa-whatsapp"></i></div>
+</div>
+<div id="wb_Text8">
+<span style="color:#000000;font-family:Verdana;font-size:27px;"><strong>Teléfonos</strong></span>
+</div>
+<div id="wb_Text10">
+<span style="color:#000000;font-family:Verdana;font-size:21px;">+53-53166421<br>+53-55193327</span>
+</div>
+<div id="wb_Text9">
+<span style="color:#000000;font-family:Verdana;font-size:21px;"><strong>Horario</strong>:<br><strong>Lunes a Viernes:</strong> 8:00am - 4:00pm<br><strong>Sábados:</strong>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 8:00am - 1:00pm</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
